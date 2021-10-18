@@ -4,6 +4,7 @@ import Menu from '../Menu/Menu';
 import Home from '../Home/Home';
 import Services from '../Services/Services';
 import Notfound from '../Notfound/Notfound';
+import ServiceDetail from '../ServiceDetail/ServiceDetail';
 
 const Header = () => {
     return (
@@ -19,6 +20,9 @@ const Header = () => {
                     </Route>
                     <Route exact path='/services'>
                         <Services></Services>
+                    </Route>
+                    <Route path='/services/:id'>
+                        <ServiceDetail></ServiceDetail>
                     </Route>
                     <Route path='*'>
                         <Notfound></Notfound>

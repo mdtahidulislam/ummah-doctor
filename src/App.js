@@ -1,14 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
-import Banner from './Components/Banner/Banner';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Banner></Banner>
+      <Footer></Footer>
     </div>
   );
 }

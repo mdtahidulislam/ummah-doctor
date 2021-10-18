@@ -1,0 +1,23 @@
+h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #202647;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+h2:after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 5px;
+    background: #0dbcc0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+p {
+    line-height: 30px;
+}
