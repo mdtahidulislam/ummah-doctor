@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Menu from '../Menu/Menu';
+import Home from '../Home/Home';
+import Services from '../Services/Services';
+import Notfound from '../Notfound/Notfound';
 
 const Header = () => {
     return (
@@ -8,8 +11,17 @@ const Header = () => {
             <Router>
                 <Menu></Menu>
                 <Switch>
-                    <Route>
-
+                    <Route exact path='/'>
+                        <Home></Home>
+                    </Route>
+                    <Route exact path='/home'>
+                        <Home></Home>
+                    </Route>
+                    <Route exact path='/services'>
+                        <Services></Services>
+                    </Route>
+                    <Route path='*'>
+                        <Notfound></Notfound>
                     </Route>
                 </Switch>
             </Router>
