@@ -1,0 +1,21 @@
+[debug] [2021-10-19T08:48:30.593Z] ----------------------------------------------------------------------
+[debug] [2021-10-19T08:48:30.597Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\zeropointcomputing\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-10-19T08:48:30.598Z] CLI Version:   9.20.0
+[debug] [2021-10-19T08:48:30.598Z] Platform:      win32
+[debug] [2021-10-19T08:48:30.598Z] Node Version:  v14.16.1
+[debug] [2021-10-19T08:48:30.607Z] Time:          Tue Oct 19 2021 14:48:30 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-19T08:48:30.608Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-19T08:48:30.618Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T08:48:30.618Z] > authorizing via signed-in user (tahidul.developer@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\projects\assigment\healthcare-related-website-tahidul1
+

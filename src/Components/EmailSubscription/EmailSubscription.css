@@ -1,0 +1,38 @@
+.newsletter-area {
+    background-color: #eaf6fc;
+}
+.newsletter-form {
+    position: relative;
+}
+
+.newsletter-form .input-newsletter {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    height: 70px;
+    padding: 15px 15px 14px;
+    border-radius: 5px;
+    outline: 0;
+    color: #202647;
+    font-family: poppins,sans-serif;
+}
+
+.newsletter-form button {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-color: #0dbcc0;
+    color: #fff;
+    border: none;
+    height: 62px;
+    padding: 0 30px;
+    border-radius: 5px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    line-height: 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}

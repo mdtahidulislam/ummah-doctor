@@ -7,7 +7,7 @@ const Sectionheader = ({ heading, subHeading }) => {
         <Container>
             <Row>
                 <Col md={{ span: 6, offset: 3 }} className="text-center">
-                    <h2>{heading}</h2>
+                    <h2 className="section-title">{heading}</h2>
                     <p>{subHeading}</p>
                 </Col>
             </Row>

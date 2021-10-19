@@ -1,9 +1,15 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import AllServices from '../AllServices/AllServices';
 
 const Services = () => {
     return (
-        <div>
-            services
+        <div className="service-page">
+            <Container>
+                <Row>
+                    <AllServices></AllServices>
+                </Row>
+            </Container>
         </div>
     );
 };
