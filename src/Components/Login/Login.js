@@ -60,11 +60,11 @@ const Login = () => {
                 const user = result.user;
                 console.log(user);
                 setError('');
-                // set user name
-                setUserName();
-                // history.push(ridirect_uri);
+                history.push(ridirect_uri);
                 // send verification email
                 veryfyEmail();
+                // set user name
+                setUserName();
             })
             .catch(error => {
                 setError(error.message);
