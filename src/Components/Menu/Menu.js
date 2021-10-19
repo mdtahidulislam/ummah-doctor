@@ -17,12 +17,10 @@ const Menu = () => {
                         <Nav className="ms-auto">
                             <Nav.Link as={Link} to='/home' className="text-white fw-bold">Home</Nav.Link>
                             <Nav.Link as={Link} to='/services' className="text-white fw-bold">Services</Nav.Link>
-                            {/* <Nav.Link as={Link} to='/register' className="text-white fw-bold">Register</Nav.Link> */}
-                            {/* <Nav.Link as={Link} to='/login' className="text-white fw-bold">Register / Login</Nav.Link> */}
+                            <Nav.Link as={Link} to='/booking' className="text-white fw-bold">Appointment</Nav.Link>
+                            <Nav.Link as={Link} to='/doctordashboard' className="text-white fw-bold">Doctor Dashboard</Nav.Link>
                             {user.email ? <p className="mb-0"><span className="text-white">{user.displayName}</span> <button onClick={handleSignOut}>Log out</button></p>
                                 : <Nav.Link as={Link} to='/login' className="text-white fw-bold">Login / Register</Nav.Link>}
-
-
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

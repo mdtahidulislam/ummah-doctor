@@ -9,6 +9,8 @@ import AuthProvider from '../../Context/AuthProvider';
 import Login from '../Login/Login';
 import Register from '../Register/Register';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
+import Appointment from '../Appointment/Appointment';
+import Doctor from '../Doctor/Doctor';
 
 const Header = () => {
     return (
@@ -26,6 +28,12 @@ const Header = () => {
                         <Route exact path='/services'>
                             <Services></Services>
                         </Route>
+                        <PrivateRoute path='/doctordashboard'>
+                            <Doctor></Doctor>
+                        </PrivateRoute>
+                        <PrivateRoute path='/booking'>
+                            <Appointment></Appointment>
+                        </PrivateRoute>
                         <PrivateRoute path='/services/:id'>
                             <ServiceDetail></ServiceDetail>
                         </PrivateRoute>

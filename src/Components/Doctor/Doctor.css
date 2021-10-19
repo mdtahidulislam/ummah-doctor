@@ -1,0 +1,36 @@
+.dashboard-profile {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+}
+.dashboard-profile .profile-box {
+    text-align: center;
+}
+
+.dashboard-profile .profile-box .profile-designation {
+    padding: 25px;
+}
+
+.single-stats-box {
+    text-align: center;
+    margin-bottom: 30px;
+    background: -webkit-gradient(linear,left top,left bottom,from(#a794fc),color-stop(#9480ec),color-stop(#816cdd),color-stop(#6e58cd),to(#5b45be));
+    background: linear-gradient(to bottom,#a794fc,#9480ec,#816cdd,#6e58cd,#5b45be);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.single-stats-box.bg-2 {
+    background: -webkit-gradient(linear,left top,left bottom,from(#6dc3f8),color-stop(#58b1eb),color-stop(#429fde),color-stop(#2a8dd1),to(#057bc4));
+    background: linear-gradient(to bottom,#6dc3f8,#58b1eb,#429fde,#2a8dd1,#057bc4);
+}
+
+.single-stats-box.bg-3 {
+    background: -webkit-gradient(linear,left top,left bottom,from(#59dfa0),color-stop(#4ace8f),color-stop(#39be7d),color-stop(#27ae6d),to(#0f9e5c));
+    background: linear-gradient(to bottom,#59dfa0,#4ace8f,#39be7d,#27ae6d,#0f9e5c);
+}
+
+.single-stats-box.bg-4 {
+    background: -webkit-gradient(linear,left top,left bottom,from(#f6688a),color-stop(#ef6082),color-stop(#e8587a),color-stop(#e05072),to(#d9486a));
+    background: linear-gradient(to bottom,#f6688a,#ef6082,#e8587a,#e05072,#d9486a);
+}

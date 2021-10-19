@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 import './ServciceDetail.css'
 
 
@@ -38,6 +39,11 @@ const ServiceDetail = () => {
                     <Col>
                         <h3 className="pt-5">Description</h3>
                         <p className="pb-5">{service.description}</p>
+                    </Col>
+                </Row>
+                <Row className="d-flex justify-content-center">
+                    <Col md={2} className="text-center">
+                        <Link to='/booking' className="btn btn-site py-3 mb-5">Make Appointment</Link>
                     </Col>
                 </Row>
             </Container>
