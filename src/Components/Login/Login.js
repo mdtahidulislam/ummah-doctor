@@ -146,7 +146,7 @@ const Login = () => {
                                 <button onClick={handleResetPassword} type="button" className="btn btn-primary">Reset Password</button>
                             </form>
                             <p className="text-danger">{error}</p>
-                            <div className="d-flex justify-content-center pb-2">
+                            <div className="pb-2 d-flex justify-content-center">
                                 <span> -------------- or --------------</span>
                             </div>
                             <div className="text-center">

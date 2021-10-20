@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAvvyL-1l7CaW-6ehyD9FpSWEd2GYOekm8",
-    authDomain: "ummah-doctor.firebaseapp.com",
-    projectId: "ummah-doctor",
-    storageBucket: "ummah-doctor.appspot.com",
-    messagingSenderId: "335069447796",
-    appId: "1:335069447796:web:624b87e55ee642d5cfb321"
+    apiKey: "AIzaSyCdrPaNYMhPBEe_UefOIV_gOfTkNIJ9Huc",
+    authDomain: "ummah-doctor-87251.firebaseapp.com",
+    projectId: "ummah-doctor-87251",
+    storageBucket: "ummah-doctor-87251.appspot.com",
+    messagingSenderId: "333325552934",
+    appId: "1:333325552934:web:56f81d5b2d684df96745e7"
 };
 
 export default firebaseConfig;
