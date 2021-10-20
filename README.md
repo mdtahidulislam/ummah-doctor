@@ -1,6 +1,6 @@
 # Ummah's Doctor React App
 
-This project was bootstrapped with React [Ummah Doctor](https://ummah-doctor.netlify.app/)
+This project was bootstrapped with React [Ummah Doctor](https://ummah-doctor-87251.web.app)
 
 ## Technology We Used
 * React
@@ -9,7 +9,7 @@ This project was bootstrapped with React [Ummah Doctor](https://ummah-doctor.net
 * Fontawesome Icon
 * Google Font
 * Firebae Authentication
-* Netlify
+* Firebase hosting
 * JSON Server
 
 ## Features
